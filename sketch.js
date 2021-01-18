@@ -47,31 +47,32 @@ function draw() {
     //add condition to check if box touching surface and make it box
     if(tile1.isTouching(box) && box.bounceOff(tile1)){
     box.shapeColor="darkred";
+        box.velocityX=0;
 }
 
 
     
     if(tile2.isTouching(box) && box.bounceOff(tile2)){
         box.shapeColor="green";
-    
+        box.velocityX=0;
        }
      
        
     if(tile3.isTouching(box) && box.bounceOff(tile3)){
           box.shapeColor="yellow";
-         
+         box.velocityX=0;
        }
     
      
     if(tile4.isTouching(box) && box.bounceOff(tile4)){
           box.shapeColor="pink";
-        
+        box.velocityX=0;
        }
     
      
     if(tile5.isTouching(box) && box.bounceOff(tile5)){
           box.shapeColor="skyblue";
-          
+          box.velocityX=0;
       }
     
 
